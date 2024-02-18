@@ -1,0 +1,29 @@
+{
+  "name": "fantastic-dollop",
+  "version": "1.0.0",
+  "description": "this is fantastic!",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --extensions \".ts,.tsx\" --source-maps true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irinova/fantastic-dollop.git"
+  },
+  "author": "Irina Zakharova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irinova/fantastic-dollop/issues"
+  },
+  "private": false,
+  "homepage": "https://github.com/Irinova/fantastic-dollop#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3"
+  }
+}
